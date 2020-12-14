@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "641040900444",
+    "firebase_url": "https://ataa-f286c.firebaseio.com",
+    "project_id": "ataa-f286c",
+    "storage_bucket": "ataa-f286c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641040900444:android:6b28fcd7d3f069041f2199",
+        "android_client_info": {
+          "package_name": "com.raiyansoft.eata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641040900444-t2hpo8vavtmp1a9ceqnijkin4eufqr3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raiyansoft.eata",
+            "certificate_hash": "ead5be5450133294a2362c8faea7629d475d2727"
+          }
+        },
+        {
+          "client_id": "641040900444-555encmttc8jjrr207j7be0qlr3089g4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMWU_YnLqWU0CNhYAAM4pITlaOh2mnITo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641040900444-555encmttc8jjrr207j7be0qlr3089g4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "641040900444-q7crtud4bp1b5446sg5uui15hjjilmlu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Raiyansoft.Attaa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

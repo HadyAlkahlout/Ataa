@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main.xml"
+    app:startDestination="@id/categoriesFragment">
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.account.AccountFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/savingFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.SavingFragment"
+        android:label="SavingFragment" />
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.cases.CategoriesFragment"
+        android:label="CategoriesFragment" />
+    <fragment
+        android:id="@+id/donatesFragment2"
+        android:name="com.raiyansoft.eata.ui.fragment.account.DonatesFragment"
+        android:label="DonatesFragment" />
+    <fragment
+        android:id="@+id/messageFragment2"
+        android:name="com.raiyansoft.eata.ui.fragment.message.MyMessageFragment"
+        android:label="DonatesFragment" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.HomeCaseFragment"
+        android:label="TypeCasesFragment" />
+
+</navigation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="الرئيسية" />
+
+
+    <item
+        android:id="@+id/categoriesFragment"
+        android:icon="@drawable/ic_categories"
+        android:title="الأقسام" />
+
+
+
+    <item
+        android:id="@+id/savingFragment"
+        android:icon="@drawable/ic_saving"
+        android:title="المحفوظات" />
+
+    <item
+        android:id="@+id/messageFragment2"
+        android:icon="@drawable/ic__message"
+        android:title="المحادثات" />
+    
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/ic_account"
+        android:title="حسابي" />
+
+</menu>

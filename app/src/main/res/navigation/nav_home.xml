@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_home.xml"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/questionFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.account.QuestionFragment"
+        android:label="QuestionFragment" />
+    <fragment
+        android:id="@+id/addCaseUserFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.user.AddCaseUserFragment"
+        android:label="AddCaseUserFragment" />
+    <fragment
+        android:id="@+id/donatesFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.account.DonatesFragment"
+        android:label="DonatesFragment" >
+        <action
+            android:id="@+id/action_donatesFragment_to_messageFragment"
+            app:destination="@id/messageFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down"
+            app:popEnterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.account.NotificationFragment"
+        android:label="NotificationFragment" />
+    <fragment
+        android:id="@+id/conditionsFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.account.ConditionsFragment"
+        android:label="ConditionsFragment" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.MainFragment"
+        android:label="MainFragment">
+        <action
+            android:id="@+id/action_mainFragment_to_questionFragment"
+            app:destination="@id/questionFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_conditionsFragment"
+            app:destination="@id/conditionsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_addCaseUserFragment"
+            app:destination="@id/addCaseUserFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down"
+            app:popEnterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down" />
+        <action
+            android:id="@+id/action_mainFragment_to_privacyFragment"
+            app:destination="@id/privacyFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_notificationFragment"
+            app:destination="@id/notificationFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_donatesFragment"
+            app:destination="@id/donatesFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_callUsFragment"
+            app:destination="@id/callUsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_myMessageFragment"
+            app:destination="@id/myMessageFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down"
+            app:popEnterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down" />
+        <action
+            android:id="@+id/action_mainFragment_to_typeCasesFragment"
+            app:destination="@id/typeCasesFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down"
+            app:popEnterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down" />
+        <action
+            android:id="@+id/action_mainFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down"
+            app:popEnterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down" />
+        <action
+            android:id="@+id/action_mainFragment_to_messageFragment"
+            app:destination="@id/messageFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down"
+            app:popEnterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down"
+            />
+
+    </fragment>
+    <fragment
+        android:id="@+id/privacyFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.account.PrivacyFragment"
+        android:label="PrivacyFragment" />
+    <fragment
+        android:id="@+id/callUsFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.account.CallUsFragment"
+        android:label="CallUsFragment" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.account.AboutUsFragment"
+        android:label="AboutFragment" />
+    <fragment
+        android:id="@+id/myMessageFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.message.MyMessageFragment"
+        android:label="MyMessageFragment" >
+        <action
+            android:id="@+id/action_myMessageFragment_to_messageFragment"
+            app:destination="@id/messageFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down"
+            app:popEnterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/typeCasesFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.cases.TypeCasesFragment"
+        android:label="TypeCasesFragment">
+        <action
+            android:id="@+id/action_typeCasesFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down"
+            app:popEnterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.cases.DetailsFragment"
+        android:label="DetailsFragment">
+        <action
+            android:id="@+id/action_detailsFragment_to_messageFragment"
+            app:destination="@id/messageFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down"
+            app:popEnterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down" />
+        <action
+            android:id="@+id/action_detailsFragment_to_addCaseUserFragment"
+            app:destination="@id/addCaseUserFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down"
+            app:popEnterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down" />
+    </fragment>
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.raiyansoft.eata.ui.fragment.message.MessageFragment"
+        android:label="MessageFragment" />
+</navigation>

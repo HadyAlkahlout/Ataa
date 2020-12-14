@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/categoriesFragment"
+        android:icon="@drawable/ic_categories"
+        android:title="طلبي" />
+
+    <item
+        android:id="@+id/donatesFragment2"
+        android:icon="@drawable/ic_saving"
+        android:title="سجل الطلبات" />
+
+    <item
+        android:id="@+id/messageFragment2"
+        android:icon="@drawable/ic__message"
+        android:title="المحادثات" />
+
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/ic_account"
+        android:title="حسابي" />
+
+</menu>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">عطاء</string>
+
+    <string name="login_as">الدخول كـ</string>
+    <string name="volunteer">متبرع</string>
+    <string name="pauper">محتاج</string>
+    <string name="conection_between_two_side">الرابط بين المتبرع و المحتاج</string>
+    <string name="four_number">ادخل الأربعة أرقام المرسلة لأتمام التسجيل</string>
+    <string name="Activation">تفعيل</string>
+    <string name="reSend">
+   <u>اعادة ارسال الكود</u>.
+    </string>
+    <string name="long_text">تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة تفاصيل الحالة </string>
+    <string name="Total_price">الأجمالي 1500 دك</string>
+    <string name="donate_now">تبرع الأن</string>
+    <string name="payment_confirm">هل أنت متأكد من رغبتك في التبرع ؟</string>
+    <string name="thanks_for_payment">ستنتقل الان الي شاشة المحادثة مع المحتاج و ذلك للتنسيق بينكم</string>
+    <string name="ok">موافق</string>
+    <string name="paid_isdone">هل تم إتمام التبرع</string>
+
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.fragment.intro.VerificationFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tv_image_verify"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:src="@drawable/logo2"
+                app:layout_constraintDimensionRatio="0.6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/sub_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/conection_between_two_side"
+                app:layout_constraintEnd_toEndOf="@+id/tv_image_verify"
+                app:layout_constraintStart_toStartOf="@+id/tv_image_verify"
+                app:layout_constraintTop_toBottomOf="@+id/tv_image_verify" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/sub_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/four_number"
+                app:layout_constraintEnd_toEndOf="@+id/tv_image_verify"
+                app:layout_constraintStart_toStartOf="@+id/tv_image_verify"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+            <com.chaos.view.PinView
+                android:id="@+id/PinView"
+                style="@style/PinWidget.PinView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:cursorVisible="true"
+                android:inputType="number"
+                android:textColor="@color/colorBtn"
+                android:textSize="20sp"
+                app:cursorColor="@color/colorPurple"
+                app:itemCount="5"
+                app:itemHeight="55dp"
+                app:itemRadius="16dp"
+                app:itemSpacing="10dp"
+                app:itemWidth="55dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                app:lineColor="#E8E8E8" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_verify_now"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:backgroundTint="@color/colorBtn"
+                android:padding="15dp"
+                android:text="@string/Activation"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/PinView"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/txtResendCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:text="@string/reSend"
+                android:textColor="@color/colorPurple"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_verify_now"
+                app:layout_constraintVertical_bias="0.81" />
+
+            <TextView
+                android:id="@+id/txtDownTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="05:00"
+                android:textSize="14dp"
+                app:layout_constraintBottom_toBottomOf="@+id/txtResendCode"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txtResendCode"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
